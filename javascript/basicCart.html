@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>displays cart Quantity</h1>
+    <button onclick="
+    alert(`the cart Quantity is ${cartQuantity}`);
+    ">show Quantity</button>
+    <button onclick="
+    // cartQuantity = cartQuantity + 1;
+    // alert(cartQuantity);
+    if (cartQuantity <10){
+        cartQuantity =cartQuantity +1;
+        alert(`the cart Quantity is ${cartQuantity}`);
+    }else {
+        alert('iteam cannot be added')
+    }
+
+    ">add to cart</button>
+    <button onclick="
+    // cartQuantity = cartQuantity +2;
+    // alert(cartQuantity);
+    if (cartQuantity <10){
+        cartQuantity =cartQuantity +2;
+        alert(`the cart Quantity is ${cartQuantity}`);
+    }else {
+        alert('iteam cannot be added')
+    }
+    ">+2</button>
+    <button onclick="
+    // cartQuantity = cartQuantity +3;
+    // alert(cartQuantity);
+    if (cartQuantity <10){
+        cartQuantity = cartQuantity + 3;  
+        alert(`the cart Quantity is ${cartQuantity}`);
+    }else {
+        alert('iteam cannot be added')
+    }
+    ">+3</button>
+    <button onclick="
+    cartQuantity = 0;
+    alert(`the cart Quantity is ${cartQuantity}`);
+    ">reset</button>
+
+    <button onclick="
+    // if (cartQuantity<= 10){
+    //     alert('stock available');
+    // }
+    // else {
+    //     alert('cannot be added');
+    // }
+    
+    if (cartQuantity <10){
+        alert('stock available');
+    }else if (cartQuantity ===10){
+        alert('limit reached');
+    } else if (cartQuantity> 10){
+        alert('iteam cannot be added');
+    }
+    ">check stock</button>
+
+    <script>
+        let cartQuantity = 0;
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:wheat;
+}
+header {
+    background-color: rgb(8, 163, 214);
+    color: black;
+    padding: 20px;
+    text-align:;
+}
+nav {
+    background-color: aliceblue;}
+
+    footer {
+    background-color: rgb(16, 69, 16);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;}
